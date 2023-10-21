@@ -18,8 +18,6 @@ int p_HEX(va_list va)
 	}
 	counter++;
 	array = malloc(sizeof(int) * counter);
-	if (array == NULL)
-		return (NULL);
 	for (a = 0; a < counter; a++)
 	{
 		array[a] = tem % 16;

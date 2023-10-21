@@ -17,8 +17,6 @@ int p_hex_ext(unsigned long int num)
 	}
 	counter++;
 	array = malloc(sizeof(long int) * counter);
-	if (array == NULL)
-		return (NULL);
 	for (a = 0; a < counter; a++)
 	{
 		array[a] = tem % 16;
